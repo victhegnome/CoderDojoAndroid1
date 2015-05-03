@@ -56,13 +56,14 @@
    <p class="btnholder">
      <span class="btn" id="button1">Play Sound</span>
    </p>
+   <p>Lorem ipsum dolor sit amet...</p>
     <script>
       var sound = document.getElementById("sound1");
       var button = document.getElementById("button1");
       
       button.addEventListener( 'click' , function(){
+        button.style.backgroundColor = "#000000";
         sound.play();
-        button.background = "#000000";
       } )
     </script>
 </body>
